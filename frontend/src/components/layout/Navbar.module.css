@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin-right: 1em;
+    background-color: rgb(0, 255, 170);
+    color: #fff;
+    padding: .8em 1.5em;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 28px;
+}
+
+.item a {
+    color: #FFF;
+    text-decoration: none;
+
+}
+.item a:hover {
+    color: rgb(0, 212, 250)+;
+    text-decoration: none;
+}
+
+.logo {
+    color: #FFF;
+}
